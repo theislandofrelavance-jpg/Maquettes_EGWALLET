@@ -3,18 +3,20 @@ package com.egwallet.app.ui.splash;
 import android.content.Intent;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
-import com.egwallet.app.ui.main.MainActivity;
-import com.egwallet.app.R;
+import com.egwallet.app.databinding.ActivitySplashBinding;
+import com.egwallet.app.ui.onboarding.OnboardingActivity;
 
 public class SplashActivity extends AppCompatActivity {
+    private ActivitySplashBinding binding;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_splash);
+        binding = ActivitySplashBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
 
-        // Simple auto-forward for skeleton
-        findViewById(R.id.splash_root).postDelayed(() -> {
-            startActivity(new Intent(this, MainActivity.class));
+        binding.getRoot().postDelayed(() -> {
+            startActivity(new Intent(this, OnboardingActivity.class));
             finish();
         }, 600);
     }
