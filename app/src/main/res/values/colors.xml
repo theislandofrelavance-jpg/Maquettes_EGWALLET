@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Or / Gold -->
     <color name="gold_primary">#D4AF37</color>
-    <color name="gold_soft">#E8C96A</color>
-    <color name="gold_dark">#B8860B</color>
-    <color name="gold_bg">#FFF8E7</color>
-
-    <!-- Fonds -->
     <color name="bg_primary">#FFFFFF</color>
     <color name="bg_secondary">#F8FAFC</color>
-    <color name="bg_input">#F2F2F7</color>
-
-    <!-- Texte -->
     <color name="text_primary">#0F172A</color>
     <color name="text_secondary">#334155</color>
     <color name="text_muted">#64748B</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="income_green">#16A34A</color>
+    <color name="expense_red">#DC2626</color>
+    <color name="card_bg">#FFFFFF</color>
+    <color name="dark_navy">#0F172A</color>
 </resources>

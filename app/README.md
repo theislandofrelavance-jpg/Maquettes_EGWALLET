@@ -1,16 +1,15 @@
-# Frontend skeleton for EGWallet
+# Dashboard notes
 
-This branch contains a minimal Android project skeleton to start the frontend development.
+This commit implements the Dashboard UI skeleton: header, balance card, quick actions and recent transactions.
 
-How to use:
-- Open the project in Android Studio (select the frontend/init branch)
-- Build and run (Gradle and SDK 35 required)
+How to test (debug):
+- Ensure backend or mocks: debug build uses BuildConfig.USE_MOCK=true by default.
+- Open app in emulator, skip onboarding, login with PIN 123456 (mock) and the dashboard will show seeded mock data.
 
-Mock vs Backend:
-- Debug build uses BuildConfig.USE_MOCK = true and default BASE_URL = http://10.0.2.2:8080/api/v1/
-- To use a remote backend, change the BASE_URL in buildTypes or set a different build type.
+Mock data location:
+- MockTransactionRepository seeds account and transactions.
+- MockAuthRepository contains the test PIN (123456).
 
-Next steps implemented by the maintainer:
-- Fill layouts and viewmodels
-- Implement Room entities and DAOs
-- Connect ApiService with Retrofit and ApiClient
+Build:
+./gradlew assembleDebug
+

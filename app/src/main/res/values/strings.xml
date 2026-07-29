@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">EG Wallet</string>
-    <string name="action_settings">Settings</string>
+
+    <!-- Onboarding -->
+    <string name="skip">Passer</string>
+
+    <!-- Auth / Login -->
+    <string name="login_title">Entrez votre code PIN</string>
+    <string name="pin_incorrect">PIN incorrect</string>
+
+    <!-- Register -->
+    <string name="register_title">CRÉER UN COMPTE</string>
+    <string name="create_account">Créer</string>
+    <string name="field_first_name">Nom</string>
+    <string name="field_last_name">Prénom</string>
+    <string name="field_email">Adresse Email</string>
+    <string name="field_phone">Numéro de téléphone</string>
+    <string name="field_password">Mot de passe</string>
+    <string name="field_confirm_password">Confirmez le mot de passe</string>
+    <string name="account_created_mock">Compte créé (mock)</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">Tableau de bord</string>
+    <string name="balance_label">SOLDE DISPONIBLE</string>
+    <string name="balance_visibility_tooltip">Afficher le solde</string>
+    <string name="quick_actions">ACCÈS RAPIDES</string>
+    <string name="recent_transactions">RÉCENTES</string>
+
+    <!-- Quick action labels -->
+    <string name="action_income">Revenu</string>
+    <string name="action_expense">Dépense</string>
+    <string name="action_credit">Crédit</string>
+    <string name="action_stats">Stats</string>
+
 </resources>
