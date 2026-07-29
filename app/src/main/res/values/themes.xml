@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.EGWallet" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/gold_primary</item>
+        <item name="android:statusBarColor">@color/dark_navy</item>
+    </style>
+</resources>
