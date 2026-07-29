@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.egwallet.app">
 
@@ -16,6 +17,9 @@
             </intent-filter>
         </activity>
 
+        <activity android:name="com.egwallet.app.ui.onboarding.OnboardingActivity" />
+        <activity android:name="com.egwallet.app.ui.auth.LoginActivity" />
+        <activity android:name="com.egwallet.app.ui.auth.RegisterActivity" />
         <activity android:name="com.egwallet.app.ui.main.MainActivity" />
 
     </application>
